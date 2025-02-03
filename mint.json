@@ -116,8 +116,8 @@
                         "InfiniSVM/System_Architecture/Multi-excutor/Transaction_Semantic_Aware_Scheduling",
                         "InfiniSVM/System_Architecture/Multi-excutor/Sharding_Database_with_RDMA"
                     ]
-                }
-
+                },
+                "InfiniSVM/System_Architecture/Consensus_Scaling.mdx"
             ]
         },
 
