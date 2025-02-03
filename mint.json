@@ -105,7 +105,7 @@
                     "pages": [
                         "InfiniSVM/System_Architecture/Multi-excutor/Scaling_Transaction_Processing",
                         "InfiniSVM/System_Architecture/Multi-excutor/Microservice&Pipeline",
-                        "InfiniSVM/System_Architecture/Multi-excutor/Transaction_Semantic",
+                        "InfiniSVM/System_Architecture/Multi-excutor/Transaction",
                         "InfiniSVM/System_Architecture/Multi-excutor/Sharding_Database_with_RDMA"
                     ]
                 }
