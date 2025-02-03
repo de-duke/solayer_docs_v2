@@ -1,8 +1,83 @@
 ---
 title: "Transaction Semantic Aware Scheduling"
-description: "Technical background on fine-grained transaction scheduling."
+description: "InfiniSVM’s fine-grained transaction scheduling model for optimized parallel execution."
 ---
 
-# Transaction Semantic Aware Scheduling
+# Transaction Semantic Aware Scheduling in InfiniSVM
 
-The **InfiniSVM** transaction scheduling model extends traditional **account-based partitioning** by incorporating **fine-grained sequence prediction** of **read-write operations**. This approach **reduces lock contention** while maintaining **serializability guarantees**, significantly improving **parallel execution efficiency**.
+Traditional blockchain transaction processing models, such as Solana’s, employ **account-level access pattern analysis** to batch transactions and prevent **dirty reads** through **strict isolation**. This ensures **parallel execution**, but it **conservatively treats all account accesses within a transaction as concurrent**, leading to **underutilized parallelism**.
+
+**InfiniSVM** enhances this model by introducing **fine-grained sequence prediction** of **read-write operations**. By analyzing the **temporal ordering of account accesses**, InfiniSVM **constructs an optimized locking schedule**, allowing **concurrent execution** of transactions accessing the **same accounts**, provided their **read-write sequences do not conflict**. This **dynamic scheduling model** reduces **lock contention** while maintaining **serializability guarantees**.
+
+<br />
+
+## **Fine-Grained Execution Trace & Conflict Resolution**
+
+InfiniSVM **leverages a simulation stage** to obtain **estimated read-write sequences** before transactions enter the scheduling phase.
+
+### **Execution Trace Definition**
+For a transaction **t**, we define its execution trace as a sequence:
+
+$$
+E(t) = \{ (op_1, a_1, c_1), (op_2, a_2, c_2), ..., (op_n, a_n, c_n) \}
+$$
+
+where:
+- **\( op_i \)** ∈ {read, write} represents the **operation type**.
+- **\( a_i \)** represents the **accessed account**.
+- **\( c_i \)** represents the **predicted execution time cost** between **\( op_i \) and \( op_{i+1} \)**.
+
+For any two transactions **\( t_i \) and \( t_j \)** with **overlapping accounts** (**\( A(t_i) \cap A(t_j) \)**), the **temporal sequence** **\( S_a(t) \)** for an account **\( a \)** is:
+
+$$
+S_a(t) = \{ (op_k, t_k) | a_k = a \}
+$$
+
+where **\( t_k \)** is the **relative timestamp** of the operation.
+
+<br />
+
+### **Determining Parallel Execution Feasibility**
+Two transactions **\( t_i \) and \( t_j \)** can execute in **parallel** if:
+1. **No Write-Write Conflicts**  
+   - If transactions access the **same account**, their **writes must not overlap**.
+
+2. **Read-Write Gap Constraint**  
+   - For **read \( (read, t_k) \in S_a(t_i) \)** and **write \( (write, t_l) \in S_a(t_j) \)** pairs on the same account:  
+   - The **computational gap** between operations, **\( G_k = c_k \cdot \alpha \)**, must satisfy:
+
+$$
+G_k > \delta
+$$
+
+where:
+- **\( \alpha \)** is the **average instruction execution time**.
+- **\( \delta \)** is a **tunable margin** accounting for **estimation errors**.
+
+These conditions **allow transactions to be optimally scheduled in parallel**, reducing **unnecessary locking**.
+
+<br />
+
+## **Optimized Scheduling via Shortest Makespan First (SMF)**
+
+The **optimal scheduling problem** is **NP-hard**, resembling a **bin-packing problem**. To achieve **sub-millisecond scheduling times**, **InfiniSVM** employs:
+
+- **Shortest Makespan First (SMF) Algorithm**  
+  - A **greedy scheduling approach** widely used in **database systems**.  
+  - Produces a **near-optimal transaction schedule** in real-time.
+
+- **Parallel Scheduler Ensemble**  
+  - Includes **Solana’s account-based partitioning** algorithms as baselines.  
+  - Multiple scheduling strategies are **evaluated concurrently**.  
+  - The scheduler **selects the candidate with the least estimated execution cost**.
+
+<br />
+
+## **Impact on Performance & Scalability**
+
+By implementing **execution-aware scheduling** and **parallel scheduler ensembles**, **InfiniSVM** achieves:
+- **Lower lock contention** while maintaining **serializability guarantees**.
+- **Higher transaction throughput** through **adaptive, conflict-free execution**.
+- **Near-optimal scheduling** in **sub-millisecond latency**.
+
+This **fine-grained, predictive approach** represents a **major advancement** in **high-performance blockchain transaction processing**.
