@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Solayer Docs",
+  "name": "Solayer V2 Docs",
   "logo": {
     "dark": "/images/logo-dark.svg",
     "light":  "/images/logo-light.svg"
@@ -19,17 +19,23 @@
   },
 "tabs": [
   {
-    "name": "Deposits",
-    "url": "deposits"
+    "name": "InfiniSVM",
+    "url": "infinisvm"
   },
   {
-    "name": "endoAVS",
-    "url": "endogenous-avs"
+    "name": "Flagship Product",
+    "url": "flagship-product"
   },
   {
-    "name": "sUSD",
-    "url": "susd"
-  }
+    "name": "User Tutorials",
+    "url": "user-tutorials"
+  },
+  {
+    "name": "Developers",
+    "url": "developers"
+  },
+
+  
 ],
   "topbarLinks": [
     {
@@ -67,16 +73,7 @@
   {
     "group": "Get Started",
     "pages": [
-      "getting-started/introduction",
-      "getting-started/why-on-solana",
-      "getting-started/first-principles", 
-      {
-        "group": "Usage",
-        "pages": [
-          "getting-started/using/ledger",
-          "getting-started/using/phantom"
-        ]
-      }
+      "Get_Started/Introduction", 
     ]
   },
   {
