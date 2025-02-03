@@ -18,7 +18,7 @@ For a transaction **t**, we define its execution trace as:
 E(t) = {(op1, a1, c1), (op2, a2, c2), …, (opn, an, cn)}
 
 where:
-- **opi** ∈ {read, write} represents the **operation type**.
+- **opi**  {read, write} represents the **operation type**.
 - **ai** represents the **accessed account**.
 - **ci** represents the **predicted execution time cost** between operations.
 
@@ -31,7 +31,7 @@ Two transactions **ti** and **tj** can **execute in parallel** if their access p
    - If transactions access the **same account**, their writes must **not overlap**.
 
 2. **Read-Write Gap Constraint**:  
-   - For read **(read, tk) ∈ Sa(ti)** and write **(write, tl) ∈ Sa(tj)** pairs on the same account:
+   - For read **(read, tk)  Sa(ti)** and write **(write, tl)  Sa(tj)** pairs on the same account:
    - The **gap** between operations, **Gk = ck * α**, must satisfy **Gk > δ**, where:
      - **α** is the average **instruction execution time**.
      - **δ** is a **tunable margin** accounting for **estimation errors**.
