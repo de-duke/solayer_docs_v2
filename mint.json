@@ -94,6 +94,7 @@
             "group": "InfiniSVM",
             "pages": [
                 "InfiniSVM/InfiniSVM/Overview",
+                "InfiniSVM/InfiniSVM/Why_Hardware_Acceleration?",
                 {
                     "group": "Native SOL deposits",
                     "pages": [
