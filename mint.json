@@ -94,32 +94,31 @@
             "group": "InfiniSVM",
             "pages": [
                 "InfiniSVM/InfiniSVM/Overview",
-                "InfiniSVM/InfiniSVM/WhyHardwareAcceleration",
-                {
-                    "group": "Native SOL deposits",
-                    "pages": [
-                        "deposits/native-sol/overview",
-                        "deposits/native-sol/tutorial"
-                    ]
-                },
-                {
-                    "group": "LSTs",
-                    "pages": [
-                        "deposits/lst/overview",
-                        "deposits/lst/tutorial"
-                    ]
-                },
-                {
-                    "group": "Withdraw sSOL",
-                    "pages": [
-                        "deposits/withdraw-ssol/overview",
-                        "deposits/withdraw-ssol/tutorial"
-                    ]
-                },
-                "deposits/delegation",
-                "deposits/apy"
+                "InfiniSVM/InfiniSVM/WhyHardwareAcceleration"
             ]
         },
+        {
+            "group": "System_Architecture",
+            "pages": [
+                {
+                    "group": "Multi excutor",
+                    "pages": [
+                        "InfiniSVM/System_Architecture/Multi-excutor/Scaling_Transaction_Processing",
+                        "InfiniSVM/System_Architecture/Multi-excutor/Microservice&Pipeline",
+                        "InfiniSVM/System_Architecture/Multi-excutor/Transaction_Semantic_Aware_Scheduling",
+                        "InfiniSVM/System_Architecture/Multi-excutor/Sharding_Database_with_RDMA"
+                    ]
+                },
+                "InfiniSVM/InfiniSVM/Overview",
+                "InfiniSVM/InfiniSVM/WhyHardwareAcceleration"
+            ]
+        },
+
+
+
+
+
+        
         {
             "group": "Stablecoin",
             "pages": [
