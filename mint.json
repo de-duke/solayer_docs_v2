@@ -93,8 +93,7 @@
       "Documentation/Resources/Solayer_Programs", 
       "Documentation/Security/Litepapers", 
     ]
-  }
-],
+  },
 
   {
     "group": "Deposits",
