@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Solayer V2 Docs",
+  "name": "Solayer Docs V2",
   "logo": {
     "dark": "/images/logo-dark.svg",
     "light":  "/images/logo-light.svg"
@@ -20,27 +20,26 @@
 "tabs": [
   {
     "name": "InfiniSVM",
-    "url": "infinisvm"
+    "url": "InfiniSVM"
   },
   {
     "name": "Flagship Product",
-    "url": "flagship-product"
+    "url": "Flagship_Product"
   },
   {
     "name": "User Tutorials",
-    "url": "user-tutorials"
+    "url": "User_Tutorials"
   },
   {
     "name": "Developers",
-    "url": "developers"
-  },
-
-  
+    "url": "Developers"
+  }
 ],
-  "topbarLinks": [
+
+"topbarLinks": [
     {
       "name": "FAQs",
-      "url": "getting-started/faqs"
+      "url": "Documentation/Get_Started/Introduction"
     }
   ],
   "topbarCtaButton": {
@@ -69,90 +68,34 @@
       "url": "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer-litepaper-v0.pdf"
     }
   ],
+  
 "navigation": [
   {
     "group": "Get Started",
     "pages": [
-      "Get_Started/Introduction", 
+      "Documentation/Get_Started/Introduction", 
     ]
   },
-  {
-    "group": "Protocol Architecture",
-    "pages": [
-      "developers/architecture",
-      "developers/building-on-solayer",
-      "developers/solayer-programs",
-      {
-        "group": "sSOL",
-        "pages": [
-          "ssol/what-is-ssol",
-          "ssol/liquidity",
-          "ssol/ssol-in-defi",
-          "ssol/redemption-price",
-          "ssol/trading-rewards"
-        ]
-      }
-    ]
-  },
-  {
-    "group": "Resources",
-    "pages": [
-      "resources/brand-kit",
-      "resources/partnerships"
-    ]
-  },
+
   {
     "group": "Security",
     "pages": [
-      "security/overview",
-      "security/audits",
-      "security/multisig-committee",
-      "security/bounties"
+      "Documentation/Security/Overview",
+      "Documentation/Security/Multisignature_Committees", 
+      "Documentation/Security/Audits", 
     ]
   },
+
   {
-    "group": "Ecosystem",
+    "group": "Resources",
     "pages": [
-      {
-        "group": "Epochs",
-        "pages": [
-          "community/epochs/overview",
-          "community/epochs/epoch-0",
-          "community/epochs/epoch-1", 
-          "community/epochs/epoch-2"
-        ]
-      },
-      {
-        "group": "Solayer Valley Episodes",
-        "pages": [
-          "community/milestones/overview",
-          {
-            "group": "Episode 1",
-            "pages": [
-              "community/milestones/episode-1/episode-1",
-              "community/milestones/episode-1/eligibility-guide",
-              "community/milestones/episode-1/rewards-claiming-guide"
-            ]
-          },
-          {
-            "group": "Episode 2",
-            "pages": [
-              "community/milestones/episode-2/episode-2",
-              "community/milestones/episode-2/eligibility-guide",
-              "community/milestones/episode-2/rewards-claiming-guide"
-            ]
-          },
-          {
-            "group": "Savings Account",
-            "pages": [
-              "community/milestones/savings-account/savings-account",
-              "community/milestones/savings-account/unlocking-guide"
-            ]
-          }
-        ]
-      }
+      "Documentation/Resources/Brand_Kit",
+      "Documentation/Resources/Solayer_Programs", 
+      "Documentation/Security/Litepapers", 
     ]
-  },
+  }
+],
+
   {
     "group": "Deposits",
     "pages": [
@@ -182,6 +125,9 @@
       "deposits/apy"
     ]
   },
+
+
+  
   {
     "group": "Stablecoin",
     "pages": [
@@ -216,18 +162,11 @@
       "susd/protocol-info/faqs"
     ]
   },
-  {
-    "group": "Endogenous AVS (Delegates)",
-    "pages": [
-      "endogenous-avs/overview",
-      "endogenous-avs/what-is-an-avs",
-      "endogenous-avs/quality-of-service",
-      "endogenous-avs/delegate-tokens", 
-      "endogenous-avs/cli"
-    ]
-  }
-],
-  "footerSocials": {
+
+
+  
+  
+"footerSocials": {
     "x": "https://x.com/solayer_labs",
     "github": "https://github.com/solayer-labs"
   }
