@@ -98,19 +98,18 @@
             ]
         },
         {
-            "group": "System_Architecture",
+            "group": "System Architecture",
             "pages": [
                 {
                     "group": "Multi excutor",
                     "pages": [
                         "InfiniSVM/System_Architecture/Multi-excutor/Scaling_Transaction_Processing",
                         "InfiniSVM/System_Architecture/Multi-excutor/Microservice&Pipeline",
-                        "InfiniSVM/System_Architecture/Multi-excutor/Transaction_Semantic_Aware_Scheduling",
+                        "InfiniSVM/System_Architecture/Multi-excutor/Transaction_Semantic",
                         "InfiniSVM/System_Architecture/Multi-excutor/Sharding_Database_with_RDMA"
                     ]
-                },
-                "InfiniSVM/InfiniSVM/Overview",
-                "InfiniSVM/InfiniSVM/WhyHardwareAcceleration"
+                }
+
             ]
         },
 
