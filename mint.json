@@ -101,6 +101,14 @@
             "group": "System Architecture",
             "pages": [
                 {
+                    "group": "Tech Background",
+                    "pages": [
+                        "InfiniSVM/System_Architecture/Tech_Background/Solana&SVM",
+                        "InfiniSVM/System_Architecture/Tech_Background/RDMA&InfiniBand",
+                        "InfiniSVM/System_Architecture/Tech_Background/Software_Defined_Network"
+                    ]
+                },
+                {
                     "group": "Multi excutor",
                     "pages": [
                         "InfiniSVM/System_Architecture/Multi-excutor/Scaling_Transaction_Processing",
