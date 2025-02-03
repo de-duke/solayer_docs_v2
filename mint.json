@@ -1,171 +1,161 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Solayer Docs V2",
-  "logo": {
-    "dark": "/images/logo-dark.svg",
-    "light":  "/images/logo-light.svg"
-  },
-  "favicon": "/images/favicon.jpg",
-  "colors": {
-    "primary": "#084D3E",
-    "light": "#A4E58F",
-    "dark": "#084D3E"
-  },
-  "theme": "prism",
-  "feedback": {
-    "suggestEdit": true,
-    "raiseIssue": true,
-    "thumbsRating": true
-  },
-"tabs": [
-  {
-    "name": "InfiniSVM",
-    "url": "InfiniSVM"
-  },
-  {
-    "name": "Flagship Product",
-    "url": "Flagship_Product"
-  },
-  {
-    "name": "User Tutorials",
-    "url": "User_Tutorials"
-  },
-  {
-    "name": "Developers",
-    "url": "Developers"
-  }
-],
-
-"topbarLinks": [
-    {
-      "name": "FAQs",
-      "url": "Documentation"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Launch App",
-    "url": "https://app.solayer.org"
-  },
-  "anchors": [
-    {
-      "name": "Website",
-      "icon": "globe",
-      "url": "https://solayer.org"
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "Solayer Docs V2",
+    "logo": {
+        "dark": "/images/logo-dark.svg",
+        "light": "/images/logo-light.svg"
     },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.com/invite/solayerlabs"
+    "favicon": "/images/favicon.jpg",
+    "colors": {
+        "primary": "#084D3E",
+        "light": "#A4E58F",
+        "dark": "#084D3E"
     },
-    {
-      "name": "Twitter",
-      "icon": "twitter",
-      "url": "https://twitter.com/solayer_labs"
-    }, 
-    {
-      "name": "Whitepaper",
-      "icon": "file",
-      "url": "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer-litepaper-v0.pdf"
+    "theme": "prism",
+    "feedback": {
+        "suggestEdit": true,
+        "raiseIssue": true,
+        "thumbsRating": true
+    },
+    "tabs": [
+        {
+            "name": "InfiniSVM",
+            "url": "InfiniSVM"
+        },
+        {
+            "name": "Flagship Product",
+            "url": "Flagship_Product"
+        },
+        {
+            "name": "User Tutorials",
+            "url": "User_Tutorials"
+        },
+        {
+            "name": "Developers",
+            "url": "Developers"
+        }
+    ],
+    "topbarLinks": [
+        {
+            "name": "FAQs",
+            "url": "Documentation"
+        }
+    ],
+    "topbarCtaButton": {
+        "name": "Launch App",
+        "url": "https://app.solayer.org"
+    },
+    "anchors": [
+        {
+            "name": "Website",
+            "icon": "globe",
+            "url": "https://solayer.org"
+        },
+        {
+            "name": "Community",
+            "icon": "discord",
+            "url": "https://discord.com/invite/solayerlabs"
+        },
+        {
+            "name": "Twitter",
+            "icon": "twitter",
+            "url": "https://twitter.com/solayer_labs"
+        },
+        {
+            "name": "Whitepaper",
+            "icon": "file",
+            "url": "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer-litepaper-v0.pdf"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Get Started",
+            "pages": [
+                "Documentation/Get_Started/Introduction"
+            ]
+        },
+        {
+            "group": "Security",
+            "pages": [
+                "Documentation/Security/Overview",
+                "Documentation/Security/Multisignature_Committees",
+                "Documentation/Security/Audits"
+            ]
+        },
+        {
+            "group": "Resources",
+            "pages": [
+                "Documentation/Resources/Brand_Kit",
+                "Documentation/Resources/Solayer_Programs",
+                "Documentation/Security/Litepapers"
+            ]
+        },
+        {
+            "group": "Deposits",
+            "pages": [
+                "deposits/overview",
+                {
+                    "group": "Native SOL deposits",
+                    "pages": [
+                        "deposits/native-sol/overview",
+                        "deposits/native-sol/tutorial"
+                    ]
+                },
+                {
+                    "group": "LSTs",
+                    "pages": [
+                        "deposits/lst/overview",
+                        "deposits/lst/tutorial"
+                    ]
+                },
+                {
+                    "group": "Withdraw sSOL",
+                    "pages": [
+                        "deposits/withdraw-ssol/overview",
+                        "deposits/withdraw-ssol/tutorial"
+                    ]
+                },
+                "deposits/delegation",
+                "deposits/apy"
+            ]
+        },
+        {
+            "group": "Stablecoin",
+            "pages": [
+                "susd/what-is-susd",
+                "susd/features",
+                "susd/sUSD-litepaper"
+            ]
+        },
+        {
+            "group": "Decentralized RFQ Protocol",
+            "pages": [
+                "susd/decentralized-rfq/overview",
+                "susd/decentralized-rfq/stakeholders",
+                {
+                    "group": "RFQ Process",
+                    "pages": [
+                        "susd/decentralized-rfq/rfq-overview",
+                        "susd/decentralized-rfq/subscription",
+                        "susd/decentralized-rfq/redemption"
+                    ]
+                }
+            ]
+        },
+        {
+            "group": "Protocol Info",
+            "pages": [
+                "susd/protocol-info/transparency",
+                "susd/protocol-info/redemption-price",
+                "susd/protocol-info/restrictions",
+                "susd/protocol-info/risks",
+                "susd/protocol-info/audits",
+                "susd/protocol-info/faqs"
+            ]
+        }
+    ],
+    "footerSocials": {
+        "x": "https://x.com/solayer_labs",
+        "github": "https://github.com/solayer-labs"
     }
-  ],
-  
-"navigation": [
-  {
-    "group": "Get Started",
-    "pages": [
-      "Documentation/Get_Started/Introduction" 
-    ]
-  },
-
-  {
-    "group": "Security",
-    "pages": [
-      "Documentation/Security/Overview",
-      "Documentation/Security/Multisignature_Committees", 
-      "Documentation/Security/Audits" 
-    ]
-  },
-
-  {
-    "group": "Resources",
-    "pages": [
-      "Documentation/Resources/Brand_Kit",
-      "Documentation/Resources/Solayer_Programs", 
-      "Documentation/Security/Litepapers"
-    ]
-  },
-
-  {
-    "group": "Deposits",
-    "pages": [
-      "deposits/overview",
-      {
-        "group": "Native SOL deposits",
-        "pages": [
-          "deposits/native-sol/overview",
-          "deposits/native-sol/tutorial"
-        ]
-      },
-      {
-        "group": "LSTs",
-        "pages": [
-          "deposits/lst/overview",
-          "deposits/lst/tutorial"
-        ]
-      },
-      {
-        "group": "Withdraw sSOL",
-        "pages": [
-          "deposits/withdraw-ssol/overview",
-          "deposits/withdraw-ssol/tutorial"
-        ]
-      },
-      "deposits/delegation",
-      "deposits/apy"
-    ]
-  },
-
-
-  
-  {
-    "group": "Stablecoin",
-    "pages": [
-      "susd/what-is-susd",
-      "susd/features",
-      "susd/sUSD-litepaper"
-    ]
-  },
-  {
-    "group": "Decentralized RFQ Protocol",
-    "pages": [
-      "susd/decentralized-rfq/overview",
-      "susd/decentralized-rfq/stakeholders",
-      {
-        "group": "RFQ Process",
-        "pages": [
-          "susd/decentralized-rfq/rfq-overview",
-          "susd/decentralized-rfq/subscription",
-          "susd/decentralized-rfq/redemption"
-        ]
-      }
-    ]
-  },
-  {
-    "group": "Protocol Info",
-    "pages": [
-      "susd/protocol-info/transparency",
-      "susd/protocol-info/redemption-price",
-      "susd/protocol-info/restrictions",
-      "susd/protocol-info/risks",
-      "susd/protocol-info/audits",
-      "susd/protocol-info/faqs"
-    ]
-  }
-
-
-  
-  
-"footerSocials": {
-    "x": "https://x.com/solayer_labs",
-    "github": "https://github.com/solayer-labs"
-  }
+}
