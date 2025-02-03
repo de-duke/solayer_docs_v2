@@ -91,9 +91,9 @@
             ]
         },
         {
-            "group": "Deposits",
+            "group": "InfiniSVM",
             "pages": [
-                "deposits/overview",
+                "InfiniSVM/InfiniSVM/Overview",
                 {
                     "group": "Native SOL deposits",
                     "pages": [
