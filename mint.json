@@ -73,7 +73,7 @@
   {
     "group": "Get Started",
     "pages": [
-      "Documentation/Get_Started/Introduction", 
+      "Documentation/Get_Started/Introduction" 
     ]
   },
 
@@ -160,7 +160,7 @@
       "susd/protocol-info/audits",
       "susd/protocol-info/faqs"
     ]
-  },
+  }
 
 
   
