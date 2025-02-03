@@ -39,7 +39,7 @@
 "topbarLinks": [
     {
       "name": "FAQs",
-      "url": "Documentation/Get_Started/Introduction"
+      "url": "Documentation"
     }
   ],
   "topbarCtaButton": {
@@ -82,7 +82,7 @@
     "pages": [
       "Documentation/Security/Overview",
       "Documentation/Security/Multisignature_Committees", 
-      "Documentation/Security/Audits", 
+      "Documentation/Security/Audits" 
     ]
   },
 
@@ -91,7 +91,7 @@
     "pages": [
       "Documentation/Resources/Brand_Kit",
       "Documentation/Resources/Solayer_Programs", 
-      "Documentation/Security/Litepapers", 
+      "Documentation/Security/Litepapers"
     ]
   },
 
