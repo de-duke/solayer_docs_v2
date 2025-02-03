@@ -117,7 +117,17 @@
                         "InfiniSVM/System_Architecture/Multi-excutor/Sharding_Database_with_RDMA"
                     ]
                 },
-                "InfiniSVM/System_Architecture/Consensus_Scaling.mdx"
+                "InfiniSVM/System_Architecture/Consensus_Scaling"
+            ]
+        },
+        {
+            "group": "Advanced UX",
+            "pages": [
+                "InfiniSVM/Advanced_UX/Wallet-Agnostic&DApp-First_Integration",
+                "InfiniSVM/Advanced_UX/Hooks",
+                "InfiniSVM/Advanced_UX/Cross-Chain_Contract_Call",
+                "InfiniSVM/Advanced_UX/Jumbo_Transaction",
+                "InfiniSVM/Advanced_UX/ZK-Login",
             ]
         },
 
