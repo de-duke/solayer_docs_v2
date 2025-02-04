@@ -131,45 +131,78 @@
             ]
         },
 
+        {
+            "group": "sSOL",
+            "pages": [
+                "Flagship_Product/sSOL/Overview"
+            ]
+        },
 
+        {
+            "group": "Mega Validator",
+            "pages": [
+                {
+                    "group": "Transaction Acceleration",
+                    "pages": [
+                        "Flagship_Product/Mega_Validator/Transaction_Acceleration/endoAVS",
+                        "Flagship_Product/Mega_Validator/Transaction_Acceleration/swQoS"
+                    ]
+                },
+                "Flagship_Product/Mega_Validator/Stake_Pool",
+                "Flagship_Product/Mega_Validator/Yield_Optimization"    
+            ]
+        },
+
+        {
+            "group": "sUSD",
+            "pages": [
+                {
+                    "group": "Yield-Bearing Stablecoin",
+                    "pages": [
+                        "Flagship_Product/sUSD/Yield-Bearing_Stablecoin/What_is_sUSD",
+                        "Flagship_Product/sUSD/Yield-Bearing_Stablecoin/sUSD_Features"
+                    ]
+                },
+                {
+                    "group": "Decentralized RFQ Protocol",
+                    "pages": [
+                        "Flagship_Product/sUSD/Decentralized_RFQ _Protocol/Overview",
+                        "Flagship_Product/sUSD/Decentralized_RFQ _Protocol/Stakeholders",
+                        "Flagship_Product/sUSD/Decentralized_RFQ _Protocol/Process"
+                    ]
+                },
+                {
+                    "group": "Protocol Info",
+                    "pages": [
+                        "Flagship_Product/sUSD/Protocol_Info/Litepaper",
+                        "Flagship_Product/sUSD/Protocol_Info/Transparency&Security",
+                        "Flagship_Product/sUSD/Protocol_Info/Oracle&Price_Feeds",
+                        "Flagship_Product/sUSD/Protocol_Info/Eligibility",
+                        "Flagship_Product/sUSD/Protocol_Info/Risks",
+                        "Flagship_Product/sUSD/Protocol_Info/Audits.mdx",
+                        "Flagship_Product/sUSD/Protocol_Info/FAQs"
+                    ]
+                }   
+            ]
+        },
+
+        {
+            "group": "Portfolio",
+            "pages": [
+                "Flagship_Product/Portfolio/Overview"
+            ]
+        },
+
+        {
+            "group": "Emerald Card",
+            "pages": [
+                "Flagship_Product/Emerald_Card/Overview"
+            ]
+        }
 
 
 
         
-        {
-            "group": "Stablecoin",
-            "pages": [
-                "susd/what-is-susd",
-                "susd/features",
-                "susd/sUSD-litepaper"
-            ]
-        },
-        {
-            "group": "Decentralized RFQ Protocol",
-            "pages": [
-                "susd/decentralized-rfq/overview",
-                "susd/decentralized-rfq/stakeholders",
-                {
-                    "group": "RFQ Process",
-                    "pages": [
-                        "susd/decentralized-rfq/rfq-overview",
-                        "susd/decentralized-rfq/subscription",
-                        "susd/decentralized-rfq/redemption"
-                    ]
-                }
-            ]
-        },
-        {
-            "group": "Protocol Info",
-            "pages": [
-                "susd/protocol-info/transparency",
-                "susd/protocol-info/redemption-price",
-                "susd/protocol-info/restrictions",
-                "susd/protocol-info/risks",
-                "susd/protocol-info/audits",
-                "susd/protocol-info/faqs"
-            ]
-        }
     ],
     "footerSocials": {
         "x": "https://x.com/solayer_labs",
