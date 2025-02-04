@@ -12,41 +12,6 @@ Traditional blockchain transaction processing models, such as Solana’s, employ
 
 InfiniSVM **leverages a simulation stage** to obtain **estimated read-write sequences** before transactions enter the scheduling phase.
 
-### **Execution Trace Definition**
-For a transaction **t**, we define its execution trace as a sequence:
-
-<Equation>
-
-where:
-- **\( op_i \)** ~ {read, write} represents the **operation type**.
-- **\( a_i \)** represents the **accessed account**.
-- **\( c_i \)** represents the **predicted execution time cost** between **\( op_i \) and \( op_{i+1} \)**.
-
-For any two transactions **\( t_i \) and \( t_j \)** with **overlapping accounts** (**\( A(t_i) \cap A(t_j) \)**), the **temporal sequence** **\( S_a(t) \)** for an account **\( a \)** is:
-
-<Equation>
-
-where **\( t_k \)** is the **relative timestamp** of the operation.
-
-<br />
-
-### **Determining Parallel Execution Feasibility**
-Two transactions **\( t_i \) and \( t_j \)** can execute in **parallel** if:
-1. **No Write-Write Conflicts**  
-   - If transactions access the **same account**, their **writes must not overlap**.
-
-2. **Read-Write Gap Constraint**  
-   - For **read \( (read, t_k) \in S_a(t_i) \)** and **write \( (write, t_l) \in S_a(t_j) \)** pairs on the same account:  
-   - The **computational gap** between operations, **\( G_k = c_k \cdot \alpha \)**, must satisfy:
-
-<Equation>
-
-where:
-- **\( \alpha \)** is the **average instruction execution time**.
-- **\( \delta \)** is a **tunable margin** accounting for **estimation errors**.
-
-These conditions **allow transactions to be optimally scheduled in parallel**, reducing **unnecessary locking**.
-
 <br />
 
 ## **Optimized Scheduling via Shortest Makespan First (SMF)**
