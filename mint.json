@@ -130,14 +130,12 @@
                 "InfiniSVM/Advanced_UX/ZK-Login"
             ]
         },
-
         {
             "group": "sSOL",
             "pages": [
                 "Flagship_Product/sSOL/Overview"
             ]
         },
-
         {
             "group": "Mega Validator",
             "pages": [
@@ -149,10 +147,9 @@
                     ]
                 },
                 "Flagship_Product/Mega_Validator/Stake_Pool",
-                "Flagship_Product/Mega_Validator/Yield_Optimization"    
+                "Flagship_Product/Mega_Validator/Yield_Optimization"
             ]
         },
-
         {
             "group": "sUSD",
             "pages": [
@@ -182,27 +179,59 @@
                         "Flagship_Product/sUSD/Protocol_Info/Audits.mdx",
                         "Flagship_Product/sUSD/Protocol_Info/FAQs"
                     ]
-                }   
+                }
             ]
         },
-
         {
             "group": "Portfolio",
             "pages": [
                 "Flagship_Product/Portfolio/Overview"
             ]
         },
-
         {
             "group": "Emerald Card",
             "pages": [
                 "Flagship_Product/Emerald_Card/Overview"
             ]
+        },
+        {
+            "group": "Developers",
+            "pages": [
+                {
+                    "group": "Quick Start",
+                    "pages": [
+                        "Developers/Quick_Start/Hello_Solayer"
+                    ]
+                },
+                {
+                    "group": "InfiniSVM",
+                    "pages": [
+                        "Developers/InfiniSVM/Overview"
+                    ]
+                },
+                {
+                    "group": "Mega Validator",
+                    "pages": [
+                        "Developers/Megavalidator/Transaction_Acceleration"
+                    ]
+                },
+                {
+                    "group": "sUSD",
+                    "pages": [
+                        "Developers/sUSD/Interest-Bearing_Extension",
+                        "Developers/sUSD/RFQ_Protocol"
+                    ]
+                },
+                {
+                    "group": "Learn SVM",
+                    "pages": [
+                        "Developers/Learn_SVM/Solala_Developer_Courses",
+                        "Developers/Learn_SVM/dApp_Guideline",
+                        "DDevelopers/Learn_SVM/EVM_to_SVM"
+                    ]
+                }
+            ]
         }
-
-
-
-        
     ],
     "footerSocials": {
         "x": "https://x.com/solayer_labs",
