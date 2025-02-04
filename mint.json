@@ -91,6 +91,49 @@
             ]
         },
         {
+            "group": "Community",
+            "pages": [
+                {
+                    "group": "Epochs",
+                    "pages": [
+                        "Documentation/community/epochs/overview",
+                        "Documentation/community/epochs/epoch-0",
+                        "Documentation/community/epochs/epoch-1",
+                        "Documentation/community/epochs/epoch-2"
+                    ]
+                },
+                {
+                    "group": "Solayer Valley Episodes",
+                    "pages": [
+                        "Documentation/community/milestone/overview.mdx",
+                        {
+                            "group": "Episode 1",
+                            "pages": [
+                                "Documentation/community/milestone/episode-1/episode-1",
+                                "Documentation/community/milestone/episode-1/eligibility-guide",
+                                "Documentation/community/milestone/episode-1/rewards-claiming-guide"
+                            ]
+                        },
+                        {
+                            "group": "Episode 2",
+                            "pages": [
+                                "Documentation/community/milestone/episode-2/episode-2",
+                                "Documentation/community/milestone/episode-2/eligibility-guide",
+                                "Documentation/community/milestone/episode-2/rewards-claiming-guide"
+                            ]
+                        },
+                        {
+                            "group": "Savings Account",
+                            "pages": [
+                                "Documentation/community/milestone/savings-account/savings-account",
+                                "Documentation/community/milestone/savings-account/unlocking-guide"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "group": "InfiniSVM",
             "pages": [
                 "InfiniSVM/InfiniSVM/Overview",
@@ -199,7 +242,6 @@
                 "User_Tutorials/Get_Started/Wallet_Connect"
             ]
         },
-        
         {
             "group": "sSOL & Megavalidator",
             "pages": [
@@ -237,8 +279,6 @@
                 "Developers/sSOL/Universal_Liquidity"
             ]
         },
-        
-        
         {
             "group": "Mega Validator",
             "pages": [
