@@ -190,15 +190,16 @@
         {
             "group": "Emerald Card",
             "pages": [
-                "User_Tutorials/Get_Started/Wallet_Connet"
+                "Flagship_Product/Emerald_Card/Overview"
             ]
         },
         {
             "group": "Get Started",
             "pages": [
-                "Flagship_Product/Emerald_Card/Overview"
+                "User_Tutorials/Get_Started/Wallet_Connet"
             ]
         },
+        
         {
             "group": "sSOL & Megavalidator",
             "pages": [
@@ -230,6 +231,14 @@
                 "Developers/InfiniSVM/Overview"
             ]
         },
+        {
+            "group": "sSOL",
+            "pages": [
+                "Developers/sSOL/Universal_Liquidity"
+            ]
+        },
+        
+        
         {
             "group": "Mega Validator",
             "pages": [
