@@ -195,41 +195,36 @@
             ]
         },
         {
-            "group": "Developers",
+            "group": "Quick Start",
             "pages": [
-                {
-                    "group": "Quick Start",
-                    "pages": [
-                        "Developers/Quick_Start/Hello_Solayer"
-                    ]
-                },
-                {
-                    "group": "InfiniSVM",
-                    "pages": [
-                        "Developers/InfiniSVM/Overview"
-                    ]
-                },
-                {
-                    "group": "Mega Validator",
-                    "pages": [
-                        "Developers/Megavalidator/Transaction_Acceleration"
-                    ]
-                },
-                {
-                    "group": "sUSD",
-                    "pages": [
-                        "Developers/sUSD/Interest-Bearing_Extension",
-                        "Developers/sUSD/RFQ_Protocol"
-                    ]
-                },
-                {
-                    "group": "Learn SVM",
-                    "pages": [
-                        "Developers/Learn_SVM/Solala_Developer_Courses",
-                        "Developers/Learn_SVM/dApp_Guideline",
-                        "Developers/Learn_SVM/EVM_to_SVM"
-                    ]
-                }
+                "Developers/Quick_Start/Hello_Solayer"
+            ]
+        },
+        {
+            "group": "InfiniSVM",
+            "pages": [
+                "Developers/InfiniSVM/Overview"
+            ]
+        },
+        {
+            "group": "Mega Validator",
+            "pages": [
+                "Developers/Megavalidator/Transaction_Acceleration"
+            ]
+        },
+        {
+            "group": "sUSD",
+            "pages": [
+                "Developers/sUSD/Interest-Bearing_Extension",
+                "Developers/sUSD/RFQ_Protocol"
+            ]
+        },
+        {
+            "group": "Learn SVM",
+            "pages": [
+                "Developers/Learn_SVM/Solala_Developer_Courses",
+                "Developers/Learn_SVM/dApp_Guideline",
+                "Developers/Learn_SVM/EVM_to_SVM"
             ]
         }
     ],
