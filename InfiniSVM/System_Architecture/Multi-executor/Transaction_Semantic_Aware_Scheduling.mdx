@@ -1,9 +1,6 @@
 ---
 title: "Transaction Semantic Aware Scheduling"
-description: "InfiniSVM’s fine-grained transaction scheduling model for optimized parallel execution."
 ---
-
-# Transaction Semantic Aware Scheduling in InfiniSVM
 
 Traditional blockchain transaction processing models, such as Solana’s, employ **account-level access pattern analysis** to batch transactions and prevent **dirty reads** through **strict isolation**. This ensures **parallel execution**, but it **conservatively treats all account accesses within a transaction as concurrent**, leading to **underutilized parallelism**.
 
@@ -18,9 +15,7 @@ InfiniSVM **leverages a simulation stage** to obtain **estimated read-write sequ
 ### **Execution Trace Definition**
 For a transaction **t**, we define its execution trace as a sequence:
 
-$$
-E(t) = \{ (op_1, a_1, c_1), (op_2, a_2, c_2), ..., (op_n, a_n, c_n) \}
-$$
+<Equation>
 
 where:
 - **\( op_i \)** ∈ {read, write} represents the **operation type**.
@@ -29,9 +24,7 @@ where:
 
 For any two transactions **\( t_i \) and \( t_j \)** with **overlapping accounts** (**\( A(t_i) \cap A(t_j) \)**), the **temporal sequence** **\( S_a(t) \)** for an account **\( a \)** is:
 
-$$
-S_a(t) = \{ (op_k, t_k) | a_k = a \}
-$$
+<Equation>
 
 where **\( t_k \)** is the **relative timestamp** of the operation.
 
@@ -46,9 +39,7 @@ Two transactions **\( t_i \) and \( t_j \)** can execute in **parallel** if:
    - For **read \( (read, t_k) \in S_a(t_i) \)** and **write \( (write, t_l) \in S_a(t_j) \)** pairs on the same account:  
    - The **computational gap** between operations, **\( G_k = c_k \cdot \alpha \)**, must satisfy:
 
-$$
-G_k > \delta
-$$
+<Equation>
 
 where:
 - **\( \alpha \)** is the **average instruction execution time**.
