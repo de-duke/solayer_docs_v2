@@ -109,12 +109,12 @@
                     ]
                 },
                 {
-                    "group": "Multi excutor",
+                    "group": "Multi executor",
                     "pages": [
-                        "InfiniSVM/System_Architecture/Multi-excutor/Scaling_Transaction_Processing",
-                        "InfiniSVM/System_Architecture/Multi-excutor/Microservice&Pipeline",
-                        "InfiniSVM/System_Architecture/Multi-excutor/Transaction_Semantic_Aware_Scheduling",
-                        "InfiniSVM/System_Architecture/Multi-excutor/Sharding_Database_with_RDMA"
+                        "InfiniSVM/System_Architecture/Multi-executor/Scaling_Transaction_Processing",
+                        "InfiniSVM/System_Architecture/Multi-executor/Microservice&Pipeline",
+                        "InfiniSVM/System_Architecture/Multi-executor/Transaction_Semantic_Aware_Scheduling",
+                        "InfiniSVM/System_Architecture/Multi-executor/Sharding_Database_with_RDMA"
                     ]
                 },
                 "InfiniSVM/System_Architecture/Consensus_Scaling"
@@ -196,7 +196,7 @@
         {
             "group": "Get Started",
             "pages": [
-                "User_Tutorials/Get_Started/Wallet_Connet"
+                "User_Tutorials/Get_Started/Wallet_Connect"
             ]
         },
         
