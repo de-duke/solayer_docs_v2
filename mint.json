@@ -26,12 +26,6 @@
             "name": "Flagship Product",
             "url": "Flagship_Product"
         },
-/*
-        {
-            "name": "User Tutorials",
-            "url": "User_Tutorials"
-        },
-*/
         
         {
             "name": "Developers",
@@ -240,35 +234,6 @@
             ]
         },
 
-// Tutorial will be open later
-/*         
-        {
-            "group": "Get Started",
-            "pages": [
-                "User_Tutorials/Get_Started/Wallet_Connect"
-            ]
-        },
-        {
-            "group": "sSOL & Megavalidator",
-            "pages": [
-                "User_Tutorials/sSOL/Native_SOL_Deposit",
-                "User_Tutorials/sSOL/LSTs_Deposit",
-                "User_Tutorials/sSOL/Withdraw_sSOL",
-                "User_Tutorials/MegaVaildator/endoAVS_Delegate",
-                "User_Tutorials/MegaVaildator/endoAVS_Undelegate"
-            ]
-        },
-        {
-            "group": "sUSD & Portfolio",
-            "pages": [
-                "User_Tutorials/sUSD/USDC_Deposit",
-                "User_Tutorials/sUSD/sUSD_withdraw",
-                "User_Tutorials/Portfolio",
-                "User_Tutorials/Emerald_Card"
-            ]
-        },
-
-*/        
         {
             "group": "Quick Start",
             "pages": [
