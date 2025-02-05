@@ -236,6 +236,9 @@
                 "Flagship_Product/Emerald_Card/Overview"
             ]
         },
+
+// Tutorial will be open later
+/*         
         {
             "group": "Get Started",
             "pages": [
@@ -261,6 +264,8 @@
                 "User_Tutorials/Emerald_Card"
             ]
         },
+
+*/        
         {
             "group": "Quick Start",
             "pages": [
