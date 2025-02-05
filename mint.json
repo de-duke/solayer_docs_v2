@@ -171,26 +171,22 @@
             ]
         },
         {
-            "group": "sSOL",
+            "group": "sSOL & Mega Validator",
             "pages": [
                 "Flagship_Product/sSOL/Overview",
-                "Flagship_Product/sSOL/Universal_Liquidity_Layer"
-            ]
-        },
-        {
-            "group": "Mega Validator",
-            "pages": [
+                "Flagship_Product/sSOL/Universal_Liquidity_Layer",
+                "Flagship_Product/Mega_Validator/Delegate_Tokens",
                 {
-                    "group": "Transaction Acceleration",
+                    "group": "Mega Validator",
                     "pages": [
                         "Flagship_Product/Mega_Validator/Transaction_Acceleration/endoAVS",
-                        "Flagship_Product/Mega_Validator/Transaction_Acceleration/swQoS"
+                        "Flagship_Product/Mega_Validator/Transaction_Acceleration/swQoS",
+                        "Flagship_Product/Mega_Validator/Yield_Optimization"
                     ]
-                },
-                "Flagship_Product/Mega_Validator/Delegate_Tokens",
-                "Flagship_Product/Mega_Validator/Yield_Optimization"
+                }
             ]
         },
+
         {
             "group": "sUSD",
             "pages": [
