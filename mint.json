@@ -247,9 +247,7 @@
         {
             "group": "Learn SVM",
             "pages": [
-                "Developers/Learn_SVM/Solala_Developer_Courses",
-                "Developers/Learn_SVM/dApp_Guideline",
-                "Developers/Learn_SVM/EVM_to_SVM"
+                "Developers/Learn_SVM/Solala_Developer_Courses"
             ]
         }
     ],
