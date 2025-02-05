@@ -8,17 +8,17 @@ The Solayer command-line interface allows you to interact directly with Solayer'
 
 <Steps>
   <Step title="Clone the repository">
-      ```
+      ```ts
       git clone git@github.com:solayer-labs/solayer-cli.git
       ```
   </Step>
   <Step title="Navigate to the project directory">
-      ```
+      ```ts
       cd solayer-cli
       ```
   </Step>
   <Step title="Install the dependencies">
-      ```
+      ```ts
       yarn install
       ```
   </Step>
@@ -32,7 +32,7 @@ The deposit feature is at the heart of Solayer, allowing you to manage your stak
 
 To start the CLI tool, use:
 
-```
+```ts
 yarn restaking
 ```
 
@@ -42,7 +42,7 @@ This command will guide you through the process interactively.
 
 To deposit native SOL through the partner API endpoint:
 
-```
+```ts
 yarn restaking --action=partnerRestake --amount=<amount> --referrer=<referrer>
 ```
 
@@ -51,7 +51,7 @@ yarn restaking --action=partnerRestake --amount=<amount> --referrer=<referrer>
 
 Example:
 
-```
+```ts
 yarn restaking --action=partnerRestake --amount=10 --referrer=ABcDefG123456789
 ```
 
@@ -59,7 +59,7 @@ yarn restaking --action=partnerRestake --amount=10 --referrer=ABcDefG123456789
 
 To withdraw native SOL:
 
-```
+```ts
 yarn restaking --action=unrestake --amount=<amount>
 ```
 
@@ -67,7 +67,7 @@ yarn restaking --action=unrestake --amount=<amount>
 
 Example:
 
-```
+```ts
 yarn restaking --action=unrestake --amount=5
 ```
 
@@ -79,7 +79,7 @@ The endoAVS program allows you to create and manage endogenous Actively Validate
 
 To start the endoAVS CLI tool, use:
 
-```
+```ts
 yarn endoavs
 ```
 
@@ -89,7 +89,7 @@ This command will guide you through the available actions interactively.
 
 To create a new endogenous AVS:
 
-```
+```ts
 yarn endoavs --action=create --avsName=<avsName> --avsTokenMintKeyPairPath=<avsTokenMintKeyPairPath>
 ```
 
@@ -98,7 +98,7 @@ yarn endoavs --action=create --avsName=<avsName> --avsTokenMintKeyPairPath=<avsT
 
 Example:
 
-```
+```ts
 yarn endoavs --action=create --avsName=MyAVS --avsTokenMintKeyPairPath=./my-avs-token-mint-keypair.json
 ```
 
@@ -106,7 +106,7 @@ yarn endoavs --action=create --avsName=MyAVS --avsTokenMintKeyPairPath=./my-avs-
 
 To delegate SOL to an endogenous AVS:
 
-```
+```ts
 yarn endoavs --action=delegate --numberOfSOL=<numberOfSOL> --endoAvsAddress=<endoAvsAddress>
 ```
 
@@ -114,7 +114,7 @@ yarn endoavs --action=delegate --numberOfSOL=<numberOfSOL> --endoAvsAddress=<end
 
 To undelegate SOL from an endogenous AVS:
 
-```
+```ts
 yarn endoavs --action=undelegate --numberOfSOL=<numberOfSOL> --endoAvsAddress=<endoAvsAddress>
 ```
 
@@ -130,7 +130,7 @@ The CLI supports several other operations for managing your endoAVS:
 
 Change the authority of your endoAVS:
 
-```
+```ts
 yarn endoavs --action=transferAuthority --newAuthorityAddr=<newAuthorityAddr> --endoAvsAddress=<endoAvsAddress>
 ```
 
@@ -138,7 +138,7 @@ yarn endoavs --action=transferAuthority --newAuthorityAddr=<newAuthorityAddr> --
 
 Update the name and URL of your endoAVS:
 
-```
+```ts
 yarn endoavs --action=updateAvs --newName=<newName> --newUrl=<newUrl> --endoAvsAddress=<endoAvsAddress>
 ```
 
@@ -146,7 +146,7 @@ yarn endoavs --action=updateAvs --newName=<newName> --newUrl=<newUrl> --endoAvsA
 
 Update or set token metadata for your endoAVS:
 
-```
+```ts
 yarn endoavs --action=updateMetadata --name=<name> --symbol=<symbol> --uri=<uri> --endoAvsAddress=<endoAvsAddress>
 ```
 
