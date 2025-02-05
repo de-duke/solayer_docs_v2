@@ -235,36 +235,15 @@
         },
 
         {
-            "group": "Quick Start",
+            "group": "Developer Tools",
             "pages": [
-                "Developers/Quick_Start/Hello_Solayer"
+                "Developers/Developer_Tools/Transacion_Acceleration",
+                "Developers/Developer_Tools/Solana_Actions&Blinks",
+                "Developers/Developer_Tools/Solayer_CLI",
+                "Developers/Developer_Tools/Solana_Agent_Kit"
             ]
         },
-        {
-            "group": "InfiniSVM",
-            "pages": [
-                "Developers/InfiniSVM/Overview"
-            ]
-        },
-        {
-            "group": "sSOL",
-            "pages": [
-                "Developers/sSOL/Universal_Liquidity"
-            ]
-        },
-        {
-            "group": "Mega Validator",
-            "pages": [
-                "Developers/Megavalidator/Transaction_Acceleration"
-            ]
-        },
-        {
-            "group": "sUSD",
-            "pages": [
-                "Developers/sUSD/Interest-Bearing_Extension",
-                "Developers/sUSD/RFQ_Protocol"
-            ]
-        },
+
         {
             "group": "Learn SVM",
             "pages": [
