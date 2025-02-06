@@ -32,12 +32,8 @@
             "url": "developers"
         }
     ],
-    "topbarLinks": [
-        {
-            "name": "",
-            "url": ""
-        }
-    ],
+
+
     "topbarCtaButton": {
         "name": "Launch App",
         "url": "https://app.solayer.org"
