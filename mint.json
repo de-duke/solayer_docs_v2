@@ -167,7 +167,7 @@
             "pages": [
                 "assets/ssol/overview",
                 "assets/ssol/universal-liquidity-layer",
-                "Flagship_Product/Mega_Validator/Delegate_Tokens",
+                "assets/mega-validator/delegate-tokens.mdx",
                 {
                     "group": "Mega Validator",
                     "pages": [
@@ -192,7 +192,7 @@
                     "group": "Decentralized RFQ Protocol",
                     "pages": [
                         "assets/susd/decentralized-rfq-protocol/overview",
-                        "Flagship_Product/sUSD/Decentralized_RFQ _Protocol/Stakeholders"
+                        "assets/susd/decentralized-rfq-protocol/stakeholders"
                     ]
                 },
                 {
