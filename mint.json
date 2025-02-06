@@ -140,14 +140,10 @@
         {
             "group": "System Architecture",
             "pages": [
-                {
-                    "group": "Tech Background",
-                    "pages": [
-                        "InfiniSVM/System_Architecture/Tech_Background/Solana&SVM",
-                        "InfiniSVM/System_Architecture/Tech_Background/RDMA&InfiniBand",
-                        "InfiniSVM/System_Architecture/Tech_Background/Software_Defined_Network"
-                    ]
-                },
+                       "InfiniSVM/System_Architecture/Solana&SVM",
+                        "InfiniSVM/System_Architecture/RDMA&InfiniBand",
+                        "InfiniSVM/System_Architecture/Software_Defined_Network",
+
                 {
                     "group": "Multi executor",
                     "pages": [
