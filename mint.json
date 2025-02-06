@@ -82,9 +82,9 @@
         {
             "group": "Resources",
             "pages": [
-                "Documentation/Resources/Brand_Kit",
                 "Documentation/Resources/Solayer_Programs",
-                "Documentation/Resources/Litepapers"
+                "Documentation/Resources/Litepapers",
+                "Documentation/Resources/Brand_Kit"
             ]
         },
         {
