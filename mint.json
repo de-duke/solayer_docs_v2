@@ -20,22 +20,22 @@
     "tabs": [
         {
             "name": "InfiniSVM",
-            "url": "InfiniSVM"
+            "url": "infinisvm"
         },
         {
             "name": "Assets",
-            "url": "Flagship_Product"
+            "url": "assets"
         },
         
         {
             "name": "Developers",
-            "url": "Developers"
+            "url": "developers"
         }
     ],
     "topbarLinks": [
         {
-            "name": "FAQs",
-            "url": "Documentation"
+            "name": "",
+            "url": ""
         }
     ],
     "topbarCtaButton": {
@@ -68,23 +68,23 @@
         {
             "group": "Get Started",
             "pages": [
-                "Documentation/Get_Started/Introduction"
+                "documentation/get-started/introduction"
             ]
         },
         {
             "group": "Security",
             "pages": [
-                "Documentation/Security/Overview",
-                "Documentation/Security/Multisignature_Committees",
-                "Documentation/Security/Audits"
+                "documentation/security/overview",
+                "documentation/security/multisignature-committees",
+                "documentation/security/audits"
             ]
         },
         {
             "group": "Resources",
             "pages": [
-                "Documentation/Resources/Solayer_Programs",
-                "Documentation/Resources/Litepapers",
-                "Documentation/Resources/Brand_Kit"
+                "documentation/resources/solayer-programs",
+                "documentation/resources/litepapers",
+                "documentation/resources/brand-kit"
             ]
         },
         {
@@ -93,37 +93,37 @@
                 {
                     "group": "Epochs",
                     "pages": [
-                        "Documentation/community/epochs/overview",
-                        "Documentation/community/epochs/epoch-0",
-                        "Documentation/community/epochs/epoch-1",
-                        "Documentation/community/epochs/epoch-2"
+                        "documentation/community/epochs/overview",
+                        "documentation/community/epochs/epoch-0",
+                        "documentation/community/epochs/epoch-1",
+                        "documentation/community/epochs/epoch-2"
                     ]
                 },
                 {
                     "group": "Solayer Valley Episodes",
                     "pages": [
-                        "Documentation/community/milestone/overview.mdx",
+                        "documentation/community/milestone/overview",
                         {
                             "group": "Episode 1",
                             "pages": [
-                                "Documentation/community/milestone/episode-1/episode-1",
-                                "Documentation/community/milestone/episode-1/eligibility-guide",
-                                "Documentation/community/milestone/episode-1/rewards-claiming-guide"
+                                "documentation/community/milestone/episode-1/episode-1",
+                                "documentation/community/milestone/episode-1/eligibility-guide",
+                                "documentation/community/milestone/episode-1/rewards-claiming-guide"
                             ]
                         },
                         {
                             "group": "Episode 2",
                             "pages": [
-                                "Documentation/community/milestone/episode-2/episode-2",
-                                "Documentation/community/milestone/episode-2/eligibility-guide",
-                                "Documentation/community/milestone/episode-2/rewards-claiming-guide"
+                                "documentation/community/milestone/episode-2/episode-2",
+                                "documentation/community/milestone/episode-2/eligibility-guide",
+                                "documentation/community/milestone/episode-2/rewards-claiming-guide"
                             ]
                         },
                         {
                             "group": "Savings Account",
                             "pages": [
-                                "Documentation/community/milestone/savings-account/savings-account",
-                                "Documentation/community/milestone/savings-account/unlocking-guide"
+                                "documentation/community/milestone/savings-account/savings-account",
+                                "documentation/community/milestone/savings-account/unlocking-guide"
                             ]
                         }
                     ]
@@ -133,51 +133,51 @@
         {
             "group": "InfiniSVM",
             "pages": [
-                "InfiniSVM/InfiniSVM/Overview",
-                "InfiniSVM/InfiniSVM/WhyHardwareAcceleration"
+                "infinisvm/infinisvm/overview",
+                "infinisvm/infinisvm/whyhardwareacceleration"
             ]
         },
         {
             "group": "System Architecture",
             "pages": [
-                       "InfiniSVM/System_Architecture/Solana&SVM",
-                        "InfiniSVM/System_Architecture/RDMA&InfiniBand",
-                        "InfiniSVM/System_Architecture/Software_Defined_Network",
+                       "infinisvm/system_architecture/solana&svm",
+                        "infinisvm/system_architecture/rdma&infiniband",
+                        "infinisvm/system_architecture/software_defined_network",
 
                 {
                     "group": "Multi executor",
                     "pages": [
-                        "InfiniSVM/System_Architecture/Multi-executor/Scaling_Transaction_Processing",
-                        "InfiniSVM/System_Architecture/Multi-executor/Microservice&Pipeline",
-                        "InfiniSVM/System_Architecture/Multi-executor/Transaction_Semantic_Aware_Scheduling",
-                        "InfiniSVM/System_Architecture/Multi-executor/Sharding_Database_with_RDMA"
+                        "infinisvm/system_architecture/multi-executor/scaling_transaction_processing",
+                        "infinisvm/system_architecture/multi-executor/microservice&pipeline",
+                        "infinisvm/system_architecture/multi-executor/transaction_semantic_aware_scheduling",
+                        "infinisvm/system_architecture/multi-executor/sharding_database_with_rdma"
                     ]
                 },
-                "InfiniSVM/System_Architecture/Consensus_Scaling"
+                "infinisvm/system_architecture/consensus_scaling"
             ]
         },
         {
             "group": "Advanced UX",
             "pages": [
-                "InfiniSVM/Advanced_UX/Wallet-Agnostic&DApp-First_Integration",
-                "InfiniSVM/Advanced_UX/Hooks",
-                "InfiniSVM/Advanced_UX/Cross-Chain_Contract_Call",
-                "InfiniSVM/Advanced_UX/Jumbo_Transaction",
-                "InfiniSVM/Advanced_UX/ZK-Login"
+                "infinisvm/advanced_ux/wallet-agnostic&dapp-first-integration",
+                "infinisvm/advanced_ux/hooks",
+                "infinisvm/advanced_ux/cross-chain_contract_call",
+                "infinisvm/advanced_ux/jumbo_transaction",
+                "infinisvm/advanced_ux/zk-login"
             ]
         },
         {
             "group": "sSOL & Mega Validator",
             "pages": [
-                "Flagship_Product/sSOL/Overview",
-                "Flagship_Product/sSOL/Universal_Liquidity_Layer",
+                "assets/ssol/overview",
+                "assets/ssol/universal-liquidity-layer",
                 "Flagship_Product/Mega_Validator/Delegate_Tokens",
                 {
                     "group": "Mega Validator",
                     "pages": [
-                        "Flagship_Product/Mega_Validator/Transaction_Acceleration/endoAVS",
-                        "Flagship_Product/Mega_Validator/Transaction_Acceleration/swQoS",
-                        "Flagship_Product/Mega_Validator/Yield_Optimization"
+                        "assets/mega-validator/transaction-acceleration/endoavs",
+                        "assets/mega-validator/transaction-acceleration/swqos",
+                        "assets/mega-validator/yield-optimization"
                     ]
                 }
             ]
@@ -189,26 +189,24 @@
                 {
                     "group": "Yield-Bearing Stablecoin",
                     "pages": [
-                        "Flagship_Product/sUSD/Yield-Bearing_Stablecoin/What_is_sUSD",
-                        "Flagship_Product/sUSD/Yield-Bearing_Stablecoin/sUSD_Features"
+                        "assets/susd/yield-bearing-stablecoin/what-is-susd"
                     ]
                 },
                 {
                     "group": "Decentralized RFQ Protocol",
                     "pages": [
-                        "Flagship_Product/sUSD/Decentralized_RFQ _Protocol/Overview",
-                        "Flagship_Product/sUSD/Decentralized_RFQ _Protocol/Stakeholders",
-                        "Flagship_Product/sUSD/Decentralized_RFQ _Protocol/Process"
+                        "assets/susd/decentralized-rfq-protocol/overview",
+                        "Flagship_Product/sUSD/Decentralized_RFQ _Protocol/Stakeholders"
                     ]
                 },
                 {
                     "group": "Protocol Info",
                     "pages": [
-                        "Flagship_Product/sUSD/Protocol_Info/Litepaper",
-                        "Flagship_Product/sUSD/Protocol_Info/Transparency&Security",
-                        "Flagship_Product/sUSD/Protocol_Info/Oracle&Price_Feeds",
-                        "Flagship_Product/sUSD/Protocol_Info/Eligibility&Risks",
-                        "Flagship_Product/sUSD/Protocol_Info/FAQs"
+                        "assets/susd/protocol-info/litepaper",
+                        "assets/susd/protocol-info/transparency&security",
+                        "assets/susd/protocol-info/oracle&price_feeds.mdx",
+                        "assets/susd/protocol-info/eligibility&risks",
+                        "assets/susd/protocol-info/faqs"
                     ]
                 }
             ]
@@ -216,30 +214,30 @@
         {
             "group": "Portfolio",
             "pages": [
-                "Flagship_Product/Portfolio/Overview"
+                "assets/portfolio/overview"
             ]
         },
         {
             "group": "Emerald Card",
             "pages": [
-                "Flagship_Product/Emerald_Card/Overview"
+                "assets/emerald-card/overview"
             ]
         },
 
         {
             "group": "Developer Tools",
             "pages": [
-                "Developers/Developer_Tools/Transacion_Acceleration",
-                "Developers/Developer_Tools/Solana_Actions&Blinks",
-                "Developers/Developer_Tools/Solayer_CLI",
-                "Developers/Developer_Tools/Solana_Agent_Kit"
+                "developers/developer-tools/transacion-acceleration",
+                "developers/developer-tools/solana-actions&blinks",
+                "developers/developer-tools/solayer-cli",
+                "developers/developer-tools/solana-agent-kit"
             ]
         },
 
         {
             "group": "Learn SVM",
             "pages": [
-                "Developers/Learn_SVM/Guideline"
+                "developers/learn-svm/guideline"
             ]
         }
     ],
